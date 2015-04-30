@@ -7,7 +7,9 @@ we use a GitHub reference to the latest alpha.
     $ npm install -g typescript@^1.5.0-beta
 
 ## Start up the compiler
+Copy the completed sources to the root directory first.
 
+    $ cp complete/* .
     $ cd ts-quickstart
     $ tsc -w
     message TS6042: Compilation complete. Watching for file changes.
