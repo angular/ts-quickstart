@@ -11,7 +11,8 @@
     },
     "filesGlob": [
         "./**/*.ts",
-        "!./node_modules/**/*.ts"
+        "!./node_modules/**/*.ts",
+        "!./complete/**/*.ts"
     ],
     "files": [
         "./app.ts",
