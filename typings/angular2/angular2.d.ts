@@ -39,4 +39,5 @@ declare module "angular2/angular2" {
     });
   function For();
   function If();
+  function Attribute(attributeName: string);
 }
