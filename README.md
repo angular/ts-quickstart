@@ -1,18 +1,25 @@
-# Simple Angular 2 app written in TypeScript
+# Simple Angular 2 app written in TypeScript with Gulp Automation
 
-## Use latest TypeScript compiler
-TypeScript 1.5 beta includes everything you need. Make sure to upgrade, even if you installed TypeScript previously.
+## Install Gulp
 
-    $ npm install -g typescript@^1.5.0-beta
+    $ npm install -g gulp  # Or sudo npm install -g gulp
 
-## Start up the compiler
+## Compile your source and libs and move to dist
 
-    $ cd ts-quickstart
-    $ tsc -w
-    message TS6042: Compilation complete. Watching for file changes.
+    $ cd angular2-gulp-typescript
+    $ gulp
+    Using gulpfile ....angular2-gulp-typescript/gulpfile.js
+    Starting 'js'...
+    Starting 'libs'...
+    Starting 'html'...
+    Finished 'html' after 1.11 s
+    Finished 'js' after 1.13 s
+    Finished 'libs' after 1.12 s
+    Starting 'default'...
+    Finished 'default' after 14 μs
 
-## Use a TypeScript-aware editor
-We have good experience using these editors:
+## Edit your app (src folder)
+We have good experience using these Typescript aware editors:
 
 * [Visual Studio Code](https://code.visualstudio.com/)
 * [Webstorm 10](https://www.jetbrains.com/webstorm/download/)
@@ -20,12 +27,14 @@ We have good experience using these editors:
 * [Sublime Text](http://www.sublimetext.com/3) with [Typescript-Sublime-Plugin](https://github.com/Microsoft/Typescript-Sublime-plugin#installation)
 
 ## Load the app
-If you want to get up and running immediately, copy the completed sources:
-
-    $ cp complete/* .
-
 From the directory that contains index.html:
 
     $ npm install -g http-server  # Or sudo npm install -g http-server
+    $ cd dist
     $ http-server                 # Creates a server at localhost:8080
     # In a browser, visit localhost:8080/index.html
+
+## Clean dist
+
+    $ cd angular2-gulp-typescript
+    $ gulp clean

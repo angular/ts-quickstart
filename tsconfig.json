@@ -9,12 +9,8 @@
         "noLib": false,
         "emitDecoratorMetadata": true
     },
-    "filesGlob": [
-        "./**/*.ts",
-        "!./node_modules/**/*.ts"
-    ],
     "files": [
-        "./app.ts",
-        "./typings/angular2/angular2.d.ts"
+        "src/**/*.ts",
+        "typings/angular2/angular2.d.ts"
     ]
 }

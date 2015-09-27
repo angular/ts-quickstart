@@ -1,0 +1,29 @@
+{
+  "name": "angular2-gulp-typescript",
+  "version": "1.0.0",
+  "description": "Starter app for angular2 development using gulp and typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mdausmann/angular2-gulp-typescript.git"
+  },
+  "author": "Michael Dausmann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mdausmann/angular2-gulp-typescript/issues"
+  },
+  "homepage": "https://github.com/mdausmann/angular2-gulp-typescript",
+  "devDependencies": {
+    "del": "^1.1.1",
+    "gulp": "^3.8.11",
+    "gulp-rename": "^1.2.2",
+    "gulp-typescript": "^2.6.0",
+    "typescript": "^1.5.0-beta",
+    "es6-module-loader": "^0.16.6",
+    "systemjs": "^0.16.11",
+    "traceur": "0.0.87"
+  }
+}
